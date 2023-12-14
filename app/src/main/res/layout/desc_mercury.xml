@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".HomeActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        tools:context=".MainActivity"
+        android:backgroundTint="@color/black">
+
+        <ImageView
+            android:id="@+id/arrowBackImageView"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_arrow_back_ios_24" />
+
+        <ImageView
+            android:id="@+id/rectangle_5"
+            android:layout_width="375dp"
+            android:layout_height="290dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/mercurydesc"
+            />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="50dp"
+            android:text="Mercury"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="top"
+            android:text="Mercury, the smallest and closest planet to the sun in our solar system, is a rocky world with a surface marked by extremes. With scorching daytime temperatures reaching up to 800 degrees Fahrenheit (427 degrees Celsius) and frigid nights plunging to -290 degrees Fahrenheit (-179 degrees Celsius), Mercury experiences the most significant temperature variations of any planet. Its surface is characterized by cratered landscapes, and it lacks a substantial atmosphere to regulate temperature. Despite its harsh conditions, Mercury remains a fascinating celestial body, providing valuable insights into the dynamics of our solar system."
+            android:lineSpacingExtra="15sp"
+            android:textSize="25sp"
+            android:textAppearance="@style/earth_is_ou"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/learnmore"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/white"
+            android:text="Learn More!"
+            android:textColor="@color/russianviolet"
+            android:fontFamily="@font/poppinsextrabold"/>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SpaceExplorer</string>
+    <string name="menemukan_h">
+Menemukan \nhasil pencarian\ntentang planet bumi
+</string>
+    <string name="bumi">
+Bumi
+</string>
+    <string name="adalah_plan">
+adalah planet ketiga di tata surya kita
+</string>
+    <string name="baca_seleng">
+Baca Selengkapnya
+</string>
+</resources>

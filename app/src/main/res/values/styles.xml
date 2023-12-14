@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="earth_is_ou">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+
+        <!-- Base application theme -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- Customize your theme here. -->
+
+            <item name="colorPrimaryDark">@color/delfblue</item>
+
+            <!-- Add the following lines to set the status bar color -->
+            <item name="android:statusBarColor">@color/delfblue</item>
+        </style>
+
+
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:context=".HomeActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/black"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/arrowBackImageView"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_arrow_back_ios_24" />
+
+        <ImageView
+            android:id="@+id/rectangle_5"
+            android:layout_width="375dp"
+            android:layout_height="290dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/marsdesc" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="50dp"
+            android:text="Mars"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="top"
+            android:text="Mars, the fourth planet from the sun in our solar system, is a cold and desert-like world with a reddish appearance, earning it the nickname the Red Planet. Known for its distinctive iron-rich soil and towering volcanoes, most notably Olympus Mons, Mars has long captivated human interest as a potential candidate for future exploration and colonization. With a thin atmosphere primarily composed of carbon dioxide, Mars lacks the conditions necessary to support liquid water on its surface. Ongoing scientific missions aim to uncover more about Mars' geology, history, and the possibility of past life on this intriguing neighboring planet."
+            android:lineSpacingExtra="15sp"
+            android:textAppearance="@style/earth_is_ou"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/learnmore"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/white"
+            android:text="Learn More!"
+            android:textColor="@color/russianviolet"
+            android:fontFamily="@font/poppinsextrabold"/>
+
+    </RelativeLayout>
+</ScrollView>

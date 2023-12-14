@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".HomeActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        tools:context=".MainActivity"
+        android:backgroundTint="@color/black">
+
+        <ImageView
+            android:id="@+id/arrowBackImageView"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_arrow_back_ios_24" />
+
+        <ImageView
+            android:id="@+id/rectangle_5"
+            android:layout_width="375dp"
+            android:layout_height="290dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/uranusdesc"
+            />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="50dp"
+            android:text="Uranus"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            />
+
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="top"
+            android:text="Uranus, the seventh planet from the sun in our solar system, is a unique and intriguing gas giant. It stands out for its distinctive pale blue color, attributed to the presence of methane in its atmosphere. Uranus is characterized by its extreme tilt, as it rotates almost perpendicular to its orbital plane, resulting in unusual seasonal variations. Discovered in 1781 by William Herschel, Uranus remains a mysterious and relatively unexplored celestial body, with its atmospheric dynamics and internal composition inviting further scientific study."
+            android:lineSpacingExtra="15sp"
+            android:textSize="25sp"
+            android:textAppearance="@style/earth_is_ou"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/learnmore"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/white"
+            android:text="Learn More!"
+            android:textColor="@color/russianviolet"
+            android:fontFamily="@font/poppinsextrabold"/>
+
+
+    </RelativeLayout>
+</ScrollView>
